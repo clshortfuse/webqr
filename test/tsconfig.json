@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "types",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noErrorTruncation": true,
+    "noImplicitAny": true,
+    "outDir": "/dev/null",
+    "resolveJsonModule": true,
+    "strict": false,
+    "target": "esnext",
+    "types": ["upng-js", "node"]
+  },
+  "exclude": [
+    "./**/*.min.js",
+    "./node_modules/*",
+    ".history/*",
+    "types/*"
+  ]
+}

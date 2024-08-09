@@ -1,0 +1,41 @@
+{
+  "name": "webqr",
+  "version": "0.0.0",
+  "description": "QR Scanning for Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "c8 ava"
+  },
+  "files": ["lib"],
+  "author": "",
+  
+  "license": "MIT",
+  "devDependencies": {
+    "@stylistic/stylelint-plugin": "^3.0.0",
+    "@types/upng-js": "^2.1.5",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "@web/test-runner": "^0.18.2",
+    "@web/test-runner-playwright": "^0.11.0",
+    "ava": "^6.1.3",
+    "browserslist-to-esbuild": "^2.1.1",
+    "c8": "^10.1.2",
+    "clean-css": "^5.3.3",
+    "esbuild": "^0.20.2",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.2.1",
+    "eslint-plugin-n": "^17.10.2",
+    "eslint-plugin-sort-class-members": "^1.20.0",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "stylelint": "^16.8.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-no-unsupported-browser-features": "^8.0.1",
+    "stylelint-order": "^6.0.4",
+    "stylelint-use-logical-spec": "^5.0.1",
+    "upng-js": "^2.1.0"
+    
+  },
+  "type": "module"
+}
